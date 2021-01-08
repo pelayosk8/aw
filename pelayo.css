@@ -1,0 +1,26 @@
+/*
+    Hoja de estilo para el ejercicio de HTML y CSS3
+    Juan Antonio Solis
+    Noviembre 2020
+*/
+html{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+    border: 2px solid;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+p1{
+    border: 1,5px dotted;
+}

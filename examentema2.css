@@ -1,0 +1,89 @@
+/* 
+    Hoja de estilo para el examen del tema 2 de Aplicaciones Web
+    Creada por Juan Antonio Solís / Pelayo
+    Diciembre 2020
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #c0bed1;
+    text-align: center;
+}
+
+header{
+    position: fixed;
+    background-color: darkslateblue;
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    top: 0;
+}
+
+footer{
+    position: fixed;
+    background-color: darkslateblue;
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    bottom:0;  
+}
+
+h2{
+    text-align: left; 
+    border: 2px dotted black;
+    background-color: white;
+    margin: 125px 100px 75px 100px;
+    padding: 15px;
+}
+
+.capaz{
+    text-align: left;
+    padding: 15px;
+    border: 2px dotted black;
+    background-color: white;
+    margin: 30px 100px 30px 100px;
+}
+
+h3{
+    text-align: left;
+    color: darkblue;
+}
+
+.lista{
+    text-align: left;
+    border: 2px dotted black;
+    background-color: white;
+    margin: 30px 100px 30px 100px;
+    padding: 15px;
+}
+
+ol{
+    list-style: upper-alpha
+}
+
+ol>ol{
+    list-style: upper-roman
+}
+
+.galeria{
+    border: 2px dotted black;
+    background-color: white;
+    margin: 30px 100px 30px 100px;
+    padding: 15px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+
+img{
+    width: 100%;
+}

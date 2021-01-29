@@ -1,0 +1,32 @@
+/*
+        hoja de estilo para css3
+        creada por  juan antonio solis
+        enero 2021
+*/
+
+table{
+    background-color: bisque;
+    border: 2px solid;
+    caption-side: bottom;
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+ 
+table th{
+    text-align: left;
+    border: 1px solid;
+    padding: 5px;
+    background-color: #a28666;
+}
+
+table td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+caption{
+    margin-top: 20px;
+    font-style: italic;
+}
+

@@ -1,0 +1,57 @@
+/*
+        HOJA DE ESTILO PARA EL EJERCICO DEL QUIJOTE
+        CREADA POR JUAN  ANTONIO/ PELAYO
+        ENERO DE 2021
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+}
+
+h5{
+    padding: 15px;
+    color: grey;
+}
+
+h1{
+    color: white;
+    padding: 15px;
+}
+
+h3{
+    color: grey;
+    padding: 15px;
+}
+
+body{
+    border: 10px solid grey;
+    margin: auto;
+}
+
+.principal{
+    background-color: orange;
+    text-align: justify;
+}
+
+p{
+    padding: 15px;
+}
+
+img{
+    padding: 35px;
+}

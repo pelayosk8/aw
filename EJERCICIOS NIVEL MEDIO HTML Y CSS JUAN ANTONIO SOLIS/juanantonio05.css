@@ -1,0 +1,47 @@
+/* 
+        ESTA ES LA HOJA DE ESTILO PARA EL EJERCICIO 5
+        CREADA POR JUAN ANTONIO SOLISS
+        ENERO 2021
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img{
+    width: 10%;
+    padding: 20px;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 20px;
+}
+
+h3{
+    border: 2px solid grey;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    margin: 25px;
+}
+
+p{
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 100px;
+    margin-top: -130px;
+    width: 100%;
+}
+
+.html{
+    margin-bottom: 100px;
+}

@@ -1,0 +1,39 @@
+/*
+        ESTA LA HOJA DE ESTILO PARA ELL EJERCICO 8
+        CREADA POR  PELAYO
+        ENERO 2021
+*/
+ 
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    border: solid deepskyblue;
+    background-color: deepskyblue;
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+    border: solid skyblue;
+    background-color: skyblue;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+table{
+    background-color: skyblue;
+    border: 2px solid black;
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table th{
+    text-align: center;
+    border: 1px solid ;
+    padding: 5px;
+}

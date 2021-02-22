@@ -1,0 +1,65 @@
+/* 
+        HOJA DE ESTILOS PARA LA GALERÍA DEL PORTFOLIO
+        CREADA POR JUAN ANTONIO SOLIS
+        FEBRERO 2020/2021
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+}
+
+header{
+    padding: 40px 0;
+    background-color: darkorange;
+}
+
+header .logo{
+    text-align: left;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px black;
+}
+
+header .logo p{
+    color: grey;
+}
+
+header .categorias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .categorias a{
+    color: grey;
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header .categorias a.activo{
+    color: white;
+}
+
+.fotos{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    margin: auto;
+}
+
+img{
+    width: 60%;
+    margin: auto;
+    border: 2px solid darkorange;
+}

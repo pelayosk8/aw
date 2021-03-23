@@ -1,0 +1,82 @@
+/*
+        HOJA DE ESTILO PARA EL EJERCICIO 12
+        CREADA POR JUAN ANTONIO SOLIS
+        MARZO 2021
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#titulo{
+    color: #008080;
+    margin-bottom: 20px;
+}
+strong{
+    color: red;
+}
+.destacado{
+    color: #bfbf00;
+}
+#subtitulo{
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+em{
+    color: blue;
+}
+a{
+    color: red;
+}
+.especial{
+    color:orange;
+}
+caption{
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.abajo{
+    color: red;
+}
+.naranja{
+    color: orange;
+    font-weight: 800;
+}
+.rojo{
+    color: red
+}
+#especial{
+    color: hotpink;
+}
+.morado{
+    color: #fa44fa;
+}
+.verde{
+    color: #16c616;
+}
+#adicional{
+    color: #678401;
+}
+table{
+    width: 60%;
+    border-collapse: collapse;
+    color: #0bcb0b;
+    margin-bottom: 20px;
+}
+table td{
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+table th{
+    border: 1px solid black;
+    padding: 8px;
+}
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+}

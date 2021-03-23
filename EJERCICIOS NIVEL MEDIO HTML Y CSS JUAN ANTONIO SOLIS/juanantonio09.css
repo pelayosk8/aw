@@ -1,0 +1,48 @@
+/*
+        HOJA DE ESTILO PARA EL EJERCICIO 9
+        CREADA POR JUAN ANTONIO SOLIS
+        MARZO 2021
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    border: 5px dashed blue;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+table{
+    font-size: 14px;
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+    border: 4px solid blue;
+    text-align: center;
+}
+table td{
+    border: 1px solid;
+    padding: 2px;
+}
+img{
+    width: 200px;
+}
+.color{
+    background-color: lightgrey;
+}
+.negrita, .derecha{
+    font-weight: 700;
+}
+.derecha{
+    text-align: center;
+}
+.negrita{
+    text-align: right;
+}

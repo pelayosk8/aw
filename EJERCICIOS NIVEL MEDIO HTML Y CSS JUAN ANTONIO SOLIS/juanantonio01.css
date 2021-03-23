@@ -1,0 +1,28 @@
+/*
+        HOJA DE ESTILO PARA LAS LISTAS DEL EJERCICIO 1
+        CREADA POR JUAN ANTONIO SOLIS
+        ENERO 2021
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    color: rebeccapurple;
+    text-align: center;
+    margin: auto;
+}
+
+h2{
+    color: dodgerblue;
+    text-align: left;
+    margin: auto;
+}
+
+ol>ol{
+    list-style: upper-alpha;
+}
+
+ol>ol>ol{
+    list-style: lower-alpha;
+}

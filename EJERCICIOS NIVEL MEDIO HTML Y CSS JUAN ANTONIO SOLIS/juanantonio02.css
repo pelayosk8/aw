@@ -1,0 +1,113 @@
+/* 
+        HOJA DE ESTILO PARA EL EJERCICIO 2 
+        HECHA POR JUAN ANTONIO SOLIS 
+        MARZO 2021
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}     
+
+.topleft{
+    text-align: left;
+    padding: 10px;
+    word-spacing: 10px;
+}
+
+.topright{
+    text-align: right;
+    padding: 10px;
+    word-spacing: 10px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;    
+    width: 100%;
+}
+
+footer a{
+    color: darkslategrey;
+}
+
+.fondo{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid grey;
+    background-color: lightgrey;
+}
+
+.esp{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid grey;
+    background-color: lightgrey;
+}
+
+.botleft{
+    text-align: left;
+    padding: 10px;
+    word-spacing: 10px;
+}
+
+.botright{
+    text-align: right;
+    padding: 10px;
+    word-spacing: 10px;
+}
+
+.buscar{
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 8px;   
+}
+
+.suerte{
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+}
+
+.cajas{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.idioma{
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    margin: auto;
+    display: flex;
+}
+
+input{
+    width: 500px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;    
+}

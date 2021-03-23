@@ -1,0 +1,57 @@
+/*
+        HOJA DE ESTILO PARA EL EJERCICIO 11
+        CREADA POR JUAN ANTONIO SOLIS
+        MARZO 2021
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 200px;
+    border: 8px solid orange;
+}
+body{
+    background-color: #00e4e4;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+.top p{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;
+}
+.menu{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.british, .tate, .national, .natural{
+    background-color: white;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+.national, .british{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid orange;
+}
+.tate, .natural{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 10px solid red;
+}
+.derecha{
+    margin-left: 20px;
+}
+b{
+    font-size: 16px;
+}

@@ -1,0 +1,87 @@
+/* 
+        HOJA DE ESTILO PARA EL EJERCICIO 7
+        CREADA POR JUAN ANTONIO SOLIS
+        MARZO 2021
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: slategrey;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.top{
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    height: 80px;
+    margin-bottom: 50px;
+    width: 90%;
+    background-color: orange;
+}
+
+.amarillo{
+    border: 5px solid lightyellow;
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-left: 200px;
+    width: 35%;
+    height: 150px;
+    background-color: yellow;
+}
+
+.azul{
+    border: 5px solid lightblue;
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+    margin-right: 200px;
+    width: 35%;
+    height: 150px;
+    background-color: blue;
+    text-align: right;
+}
+
+.morado{
+    border: 5px solid lightpurple;
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-left: 200px;
+    width: 35%;
+    height: 150px;
+    background-color: purple;
+}
+
+.rojo{
+    border: 5px solid lightred;
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+    margin-right: 200px;
+    width: 35%;
+    height: 150px;
+    background-color: red;
+    text-align: right;
+}
+
+.verde{
+    border: 5px solid lightgreen;
+    width: 40%;
+    height: 150px;
+    padding-top: 5px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    background-color: green;
+}
